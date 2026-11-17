@@ -50,11 +50,11 @@ Validation uses an exact-match check (payload string only, normalized for case/p
 See [`ATLAS.md`](https://github.com/ajithor/simon_says/blob/main/ATLAS.md) for how each stage of this attack maps to MITRE ATLAS technique IDs.
 
 ## Defense tested
-- Weight space backdoor detection, based on [*Weight-Space Detection of Backdoors in LoRA Adapters*](https://arxiv.org/abs/2602.15195) (Puértolas Merenciano et al., Feb 2026). Maps to root [`ATLAS.md`](../ATLAS.md)'s **AML.M0008 :Validate AI Model** mitigation. [`README.md`](https://github.com/ajithor/simon_says/blob/main/detection_engineering/README.md)
+- Weight space backdoor detection, based on [*Weight-Space Detection of Backdoors in LoRA Adapters*](https://arxiv.org/abs/2602.15195) (Puértolas Merenciano et al., Feb 2026). Maps to root [`ATLAS.md`](https://github.com/ajithor/simon_says/blob/main/ATLAS.md)'s **AML.M0008 :Validate AI Model** mitigation. [`README.md`](https://github.com/ajithor/simon_says/blob/main/detection_engineering/README.md)
 - Reference notebooks [`spectral_geometry_lora76.ipynb`](https://github.com/ajithor/simon_says/blob/main/detection_engineering/spectral_geometry_lora76.ipynb) [`spectral_geometry_clean.ipynb`](https://github.com/ajithor/simon_says/blob/main/detection_engineering/spectral_geometry_clean.ipynb)
 ## Reproduction
 
-Refer Notebooks: [`simon_lora50.ipynb`](https://github.com/ajithor/simon_says/blob/main/simon_lora50.ipynb), [`simon_lora76.ipynb`](https://github.com/ajithor/simon_says/blob/main/simon_lora74.ipynb)
+Refer Notebooks: [`simon_lora50.ipynb`](https://github.com/ajithor/simon_says/blob/main/finetuning/simon_lora50.ipynb), [`simon_lora76.ipynb`](https://github.com/ajithor/simon_says/blob/main/finetuning/simon_lora74.ipynb)
 
 ## Payload Inertness
 
